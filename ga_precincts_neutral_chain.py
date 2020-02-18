@@ -25,7 +25,6 @@ parser.add_argument("n", metavar="iterations", type=int,
 args = parser.parse_args()
 
 num_districts_in_map = {"congress" : 14,
-                        # "congress_2020" : 13, # might lose a seat in 2020
                         "state_senate" : 56,
                         "state_house" : 180}
 
